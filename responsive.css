@@ -1,0 +1,558 @@
+@media screen and (min-width:992px) {
+    .schedule .container .grid_container .grid_img{
+        width: 50%;
+    }
+    .schedule .container .grid_container .grid_content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .register .container .l_box h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    nav .container ul li a{
+        font-size: 13px;
+    }
+    .cards .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .story .container{
+        grid-template-columns: 1fr;
+        padding: 50px 0;
+    }
+    .speakers .container .top{
+        grid-template-columns: 1fr;
+        justify-content: center !important;
+        align-items: center !important;
+        /* align-self: center; */
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .speakers .container .bottom_box{
+        grid-template-columns: repeat(2,1fr);
+        padding-bottom: 40px;
+    }
+    .schedule .container .days{
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 0;
+    }
+    .schedule .container {
+        padding: 50px 0;
+    }
+    .schedule .container .grid_container{
+        flex-direction: column;
+        padding: 40px 0;
+    }
+    .schedule .container .grid_container .grid_content .flex_box{
+        padding-bottom: 0px;
+        padding-top: 25px;
+    }
+    .schedule .container .second .grid_img{
+        width: 80%;
+    }
+    .schedule .container .third .grid_img{
+        width: 80%;
+    }
+    .register .container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .register .container .l_box{
+        width: 100%;
+    }
+    .tickets .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .tickets .container .tic_cards .card_body p{
+        font-size: 15px;
+    }
+    .venue .container .venue_box{
+        width: 100%;
+    }
+    footer .container .bottom_ftr{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    /* .form_container .container .form_box{
+        width: 50%;
+    } */
+    .venue .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .venue .container .map{
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .form_container .container .form_box .form_body .upper{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .form_container .container .form_box{
+        width: 80%;
+    }
+    .form_container .container .form_box .form_body .upper input{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:770px) {
+    nav .container{
+        flex-direction: column;
+    }
+    nav .container ul{
+        flex-direction: column;
+        flex-wrap: inherit;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    nav .container .logo h3{
+        font-size: 20px;
+    }
+    .main .main_content h1{
+        font-size: 50px;
+    }
+    .story .container .left_box h1,
+    .speakers .container .top .left_content h1{
+        font-size: 40px;
+    }
+    .speakers .container .left_content p{
+        font-size: 18px;
+    }
+    .speakers .container .top{
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        /* text-align: center; */
+    }
+    .speakers .container .top .right_img small{
+        font-size: 12px;
+    }
+    .speakers .container .bottom_box{
+        grid-template-columns: 1fr;
+    }
+    .speakers .container .bottom_box .images .bottom_text h5{
+        margin-bottom: 0.5rem;
+    }
+    .schedule .container .grid_container .grid_img{
+        width: 100%;
+    }
+    .schedule .container .second .grid_img{
+        width: 100%;
+    }
+    .schedule .container .third .grid_img{
+        width: 100%;
+    }
+    .schedule .container .grid_container .grid_content .grid_para{
+        font-size: 17px;
+    }
+    .schedule .container .grid_container .grid_content .flex_box .avatar .avt_text h5{
+        font-size: 15px;
+    }
+    .schedule .container .grid_container .grid_content .flex_box .avatar .avt_text small{
+        font-size: 10px;
+    }
+    .schedule .container .grid_container .grid_content .flex_box p{
+        font-size: 15px;
+    }
+    .tickets .container{
+        grid-template-columns: 1fr;
+    }
+    .tickets h1{
+        font-size: 40px;
+        padding: 0px;
+    }
+    .venue .venue_box .venue_body .mail a,
+    .venue .venue_box .venue_body .call a{
+        font-size: 20px;
+    }
+    .venue .venue_box .venue_body .loct h2{
+        font-size: 25px;
+    }
+    .venue .venue_box .venue_header h1 {
+        font-size: 40px;
+    }
+    .venue{
+        padding: 80px 0;
+    }
+    .venue h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .cards .container{
+        grid-template-columns: 1fr;
+    }
+    .speakers .container .top .right_img .bottom{
+        padding: 5px;
+    }
+    .schedule .container h1{
+        font-size: 30px;
+    }
+    .register .container .l_box h1{
+        font-size: 30px;
+    }
+    .register .container .l_box p {
+        font-size: 15px;
+    }
+    .register .container .r_box a{
+        padding: 5px 15px;
+    }
+    .form_container .container{
+        padding: 80px 0;
+    }
+
+}
+@media screen and (max-width:660px) {
+    .venue .container .map{
+        padding: 20px;
+    }
+}
+@media screen and (max-width:600px) {
+    .story .container .left_box h1,
+    .speakers .container .top .left_content h1{
+        font-size: 30px;
+    }
+    .story .container .left_box h2,
+    .story .container .right_box h2{
+        font-size: 25px;
+    }
+    .schedule .container .days{
+        grid-template-columns: 1fr;
+    }
+    .schedule .container h1{
+        font-size: 25px;
+    }
+    .schedule .container .days .day p{
+        font-size: 15px;
+    }
+    .schedule .container .days{
+        padding: 40px 0;
+    }
+    .schedule .container .grid_container .grid_content .flex_box p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .cards .container{
+        padding: 10px;
+        gap: 20px;
+    }
+    .story .container,
+    .speakers .container .top{
+        padding: 20px 10px;
+    }
+    .story .container .right_box .people{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .story .container .right_box .people .faces{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .story .container .left_box .story_links a{
+        font-size: 15px;
+    }
+    .speakers .container .bottom_box{
+        padding-bottom: 30px;
+    }
+    .schedule .container{
+        padding: 40px 20px;
+    }
+    .register .container{
+        padding: 20px;
+    } 
+    .register .container .l_box h1{
+        font-size: 25px;
+    } 
+    .register .container .l_box p{
+        font-size: 12px;
+    }
+    .tickets .container{
+        padding: 20px;
+    } 
+    .tickets h1{
+        font-size: 30px;
+        padding: 0px;
+    }
+    .venue .venue_box .venue_body .mail a,
+    .venue .venue_box .venue_body .call a{
+        font-size: 18px;
+    }
+    .venue .venue_box .venue_body .loct h2{
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    .venue .venue_box .venue_header h1 {
+        font-size: 30px;
+    }
+    .venue{
+        padding: 50px 0;
+    }
+    .venue h1{
+        font-size: 30px;
+    }
+    .venue .venue_box .venue_body .loct i{
+        font-size: 20px;
+    }
+    footer .container{
+        padding: 20px;
+    }
+    footer .container .top_ftr .f_icons{
+        gap: 10px;
+    }
+    footer .container .top_ftr{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    footer .container .top_ftr .f_logo{
+        justify-content: center;
+        align-items: center;
+    }
+    footer .container .bottom_ftr .copyright{
+        flex-direction: column;
+    }
+    .form_container .container{
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width:535px) {
+    .schedule .container .grid_container .grid_content .flex_box p{
+        font-size: 10px;
+    }
+    .schedule .container .grid_container .grid_content .grid_para{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .main .main_content h1{
+        font-size: 40px;
+    }
+    .main_content .box p{
+        font-size: 12px;
+    }
+    .speakers .container .top .left_content p{
+        font-size: 15px;
+    }
+    .speakers .container .top .right_img .bottom h3{
+        font-size: 20px;
+    }
+    .speakers .container .top{
+        gap: 25px;
+    }
+    .schedule .container .days{
+        padding: 30px 0;
+    }
+    .tickets .container .tic_cards .header h2{
+        font-size: 25px;
+    }
+    .tickets .container .tic_cards .header p{
+        font-size: 20px;
+    }
+    .tickets .container .tic_cards .btm_text p{
+        padding-bottom: 40px;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:470px) {
+    footer .container .bottom_ftr .f_links{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+     
+}
+@media screen and (max-width:460px) {
+    .schedule .container .grid_container .grid_content .flex_box{
+        flex-direction: column;
+        gap: 30px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-top: 10px;
+    }
+    .schedule .container .grid_container{
+        padding: 20px 0;
+    }
+    .schedule .container .grid_container .grid_content .flex_box p{
+        font-size: 15px;
+    }
+    /* footer .container .bottom_ftr .f_links{
+        font-size: 12px;
+    }
+    footer .container .bottom_ftr .copyright .texts {
+        font-size: 12px;
+    } */
+    
+}
+
+
+@media screen and (max-width:400px) {
+    .story .container .left_box .story_links a{
+        font-size: 12px;
+    }
+    .story .container .left_box h1{
+        font-size: 25px;
+    }
+    .story .container .left_box h2,
+    .story .container .right_box h2{
+        font-size: 20px;
+    }
+    .speakers .container .top .right_img small{
+        font-size: 10px;
+    }
+    .speakers .container .top .right_img .bottom h3{
+        font-size: 18px;
+    }
+    .speakers .container .top{
+        gap: 20px;
+    }
+    .schedule .container h1{
+        font-size: 20px;
+    }
+    .schedule .container .days .day p{
+        font-size: 12px;
+    }
+    .schedule .container{
+        padding: 30px 20px;
+    }
+    .register .container .l_box h1{
+        font-size: 20px;
+    }
+    .tickets .container .tic_cards .card_body p{
+        font-size: 12px;
+    }
+    .tickets .container .tic_cards .header h2 {
+        font-size: 20px;
+    }
+    .tickets .container .tic_cards .header p {
+        font-size: 18px;
+    }
+    .tickets .container .tic_cards .btm_text a{
+        padding: 5px 15px;
+    }
+    .tickets .container .tic_cards .btm_text p {
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    .venue .venue_box .venue_body .mail a,
+    .venue .venue_box .venue_body .call a{
+        font-size: 15px;
+    }
+    .venue .venue_box .venue_body .loct h2{
+        font-size: 18px;
+        margin-bottom: 0px
+    }
+    .venue .venue_box .venue_header h1 {
+        font-size: 25px;
+    }
+    .venue h1{
+        font-size: 25px;
+    }
+    .form_container .container{
+        padding: 20px 0;
+    }
+    .form_container .container .form_box .form_body{
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .main .main_content h1{
+        font-size: 30px;
+    }
+    .main_content .box .first{
+        border-right: 2px solid white;
+        /* margin-bottom: 0px; */
+    }
+    .main_content .box{
+       flex-direction: column;
+    }
+    .story .container .left_box .story_links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .story .container .left_box .story_links a{
+        width: 142px;
+    }
+    .story .container .left_box .story_links a:nth-child(1){
+        margin-right: 0px;
+        text-align: center;
+    }
+    .speakers .container .top .right_img .bottom h4,
+    .speakers .container .bottom_box .images .bottom_text h5{
+        font-size: 15px;
+    }
+    .speakers .container .top .right_img .bottom {
+        padding: 2px;
+    }
+    .speakers .container .top .right_img .bottom p,
+    .speakers .container .bottom_box .images .bottom_text p{
+        font-size: 10px;
+    }
+    .schedule .container{
+        padding: 20px;
+    }
+    .register .container .l_box h1{
+        font-size: 18px;
+    }
+    .venue .venue_box .venue_body .mail a,
+    .venue .venue_box .venue_body .call a{
+        font-size: 12px;
+    }
+    .venue .venue_box .venue_body .loct h2{
+        font-size: 15px;
+        margin-bottom: 0px
+    }
+    .venue .venue_box .venue_header h1 {
+        font-size: 20px;
+    }
+    .venue h1{
+        font-size: 20px;
+    }
+    .venue {
+        padding: 30px 0;
+    }
+}
+
+
+@media screen and (max-width:200px) {
+    .main .main_content h1{
+        font-size: 20px;
+    }
+    .main_content .box .first{
+        border-right: 2px solid white;
+        /* margin-bottom: 0px; */
+    }
+    .main_content .box{
+       flex-direction: column;
+    }
+}
